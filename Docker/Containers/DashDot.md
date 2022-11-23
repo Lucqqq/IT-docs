@@ -5,7 +5,7 @@ These metrics include information about:
 - CPU
 - Memory
 - Storage
-- Networkspeed
+- Networkspeed 
 DashDot is running within a [[Docker]]-Container and setup with the following [[Docker-Compose]] file:
 ```yml
 version: '3.5'
