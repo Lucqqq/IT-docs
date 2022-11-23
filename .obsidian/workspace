@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "d59c7144a40c9918",
+    "type": "split",
+    "children": [
+      {
+        "id": "1505fa5424da34cf",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Linux/Linux.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2dd9f7de18dc1ed6",
+    "type": "split",
+    "children": [
+      {
+        "id": "e56f64ec2e597a9a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22ed83d16a3542da",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ff0348adafbc0b5f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e34dacf8030ee81b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "73f61ba4a2f8e004",
+    "type": "split",
+    "children": [
+      {
+        "id": "939ed09f035cc9c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c7290e5932869dfa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Linux/Linux.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "405446276d5f1720",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Linux/Linux.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "21b29c48142fb6ae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4d7389beaa0ba598",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Linux/Linux.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1505fa5424da34cf",
+  "lastOpenFiles": [
+    "Server/Backup Instance.md",
+    "Server/Main Instance.md",
+    "Linux/Linux.md",
+    "Linux/Permissions.md",
+    "Linux/SFTP.md",
+    "Docker/Docker.md",
+    "Server/Oracle-Cloud.md",
+    "Server/Self-Hosted.md",
+    "README.md",
+    "Docker/Docker-Compose.md"
+  ]
+}
