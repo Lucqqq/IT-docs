@@ -1,6 +1,8 @@
-Dependencies:
-- [[Node-Exporter]]
-- [[Grafana]]
+# Prometheus
+
+Prometheus is a database working with [[Grafana]] and [[Node-Exporter]]. It is scraping the metrics from [[Node-Exporter]] (see "prometheus.yml") and then serves it for [[Grafana]] to display it. Prometheus is running within a [[Docker]]-Container.
+
+The complete [[Docker-Compose]] with [[Grafana]], [[Prometheus]] and [[Node-Exporter]] looks like this: 
 ```yml
 version: '3'
 
@@ -58,4 +60,21 @@ services:
 networks:
   proxy:
     external: true
+```
+
+The "prometheus.yml" file mounted in "/etc/prometheus" defines the scraping-jobs and looks like this:
+```yml
+global:
+  scrape_interval:     15s # By default, scrape targets every 15 seconds.
+
+scrape_configs:
+  - job_name: 'prometheus'
+    # Override the global default and scrape targets from this job every 5 seconds.
+    scrape_interval: 5s
+    static_configs:
+      - targets: ['127.0.0.1:9090']
+
+  - job_name: 'node_exporter'
+    static_configs:
+      - targets: ['node_exporter:9100']
 ```

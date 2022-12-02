@@ -302,3 +302,4 @@ Adding the swap to the fstab file for automount on start:
 ```sh
 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 ```
+

@@ -1,6 +1,8 @@
-Dependencies:
-- [[Grafana]]
-- [[Prometheus]]
+# Node-Exporter
+
+Node-Exporter is a [[Docker]]-Container which reads all systemmetrics and serves them to [[Prometheus]].
+
+The complete [[Docker-Compose]] with [[Grafana]], [[Prometheus]] and [[Node-Exporter]] looks like this: 
 ```yml
 version: '3'
 
