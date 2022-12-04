@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c92b9f81dfd4f8f8",
+            "id": "f1ccee11d2add8e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f1ccee11d2add8e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Containers/LittleLink.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "73f61ba4a2f8e004",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Containers/LittleLink.md",
+                "file": "Server/Self-Hosted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Containers/LittleLink.md",
+                "file": "Server/Self-Hosted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Containers/LittleLink.md"
+                "file": "Server/Self-Hosted.md"
               }
             }
           }
@@ -152,7 +138,8 @@
   },
   "active": "f1ccee11d2add8e5",
   "lastOpenFiles": [
-    "Duplicati.md",
+    "Docker/Containers/Duplicati.md",
+    "Server/Self-Hosted.md",
     "Docker/Containers/LittleLink.md",
     "Docker/Containers/JDownloader.md",
     "SFTP.md",
@@ -160,7 +147,6 @@
     "Docker/Containers/Heimdall.md",
     "Docker/Containers/Grafana.md",
     "Docker/Containers/Filebrowser.md",
-    "Docker/Containers/Endlessh.md",
-    "Docker/Containers/Fernus.md"
+    "Docker/Containers/Endlessh.md"
   ]
 }
