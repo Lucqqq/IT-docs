@@ -184,7 +184,7 @@ Note that the port you open has to be the internal port of the [[Docker]]\-Conta
 
 **Warning:** this opens port 80 to any [[Docker]]\-Container. To open only the port of a specific container please use:
 
-```
+```sh
 ufw route allow proto tcp from any to 172.17.0.2 port 80
 ```
 
