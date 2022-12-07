@@ -50,8 +50,7 @@ server:
 log:
   level: debug
 theme: dark
-# This secret can also be set using the env variables AUTHELIA_JWT_SECRET_FILE
-jwt_secret: {secret}
+jwt_secret: {secret} #a very secure string
 default_redirection_url: https://login.domain.com
 totp:
   issuer: authelia.com
@@ -78,8 +77,7 @@ access_control:
 
 session:
   name: authelia_session
-  # This secret can also be set using the env variables AUTHELIA_SESSION_SECRET_FILE
-  secret: {secret}
+  secret: {secret} #a very secure string
   expiration: 18000
   inactivity: 1800
   domain: domain.com  # Should match whatever your root protected domain is
@@ -90,7 +88,7 @@ regulation:
   ban_time: 300
 
 storage:
-  encryption_key: {key}
+  encryption_key: {key} #a very secure string
   local:
     path: /config/db.sqlite3
 
@@ -129,4 +127,52 @@ users:
       - admins
       - dev
 ...
+```
+
+## Setup
+
+First you need to create a folders and files like this:
+```sh
+mkdir authelia #create a authelia folder
+
+cd authelia #enter the folder
+
+touch docker-compose.yml #create a docker-compose file
+
+mkdir config #create a config folder
+
+cd config #enter the folder
+
+touch configuration.yml #create a configuration file
+
+touch users_database.yml #create a user-database
+```
+
+After that is done you need to configure the configuration file. An example can be found above.
+**Be sure to edit all the secret!!**
+```sh
+nano configuration.yml
+```
+
+Now you need to edit the user-database as seen above. 
+```sh
+nano users_database.yml
+```
+Since you can't just save your password directly in the file you need to generate a hash of the password.
+This can easily be done by running:
+```sh 
+docker run authelia/authelia:latest authelia hash-password 'yourpassword'
+```
+This docker-container will return th hash of the password.
+
+After the user-database and the configuration file a setup you need to configure the docker-compose file as seen above:
+```sh
+cd ..
+nano docker-compose.yml
+```
+Be sure to edit it for your needs.
+
+Now everything should be setup and you are abel to start the container:
+```sh
+sudo docker-compose up -d
 ```

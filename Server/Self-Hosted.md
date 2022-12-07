@@ -1,6 +1,6 @@
 # Self-Hosted
 
-This Server is replacing [[Backup Instance (Depricated)]].
+This Server is replacing [[Backup Instance (Deprecated)]].
 
 The Setup I would chose:
 
