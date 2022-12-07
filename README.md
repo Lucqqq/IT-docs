@@ -1,2 +1,2 @@
 # IT-docs
-All my docs and notes of IT
+All my IT docs and notes
