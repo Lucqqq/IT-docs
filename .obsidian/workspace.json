@@ -11,8 +11,12 @@
             "id": "2c3ec9bbf388e2da",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Server/Main Instance.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Server/Main Instance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Server/Main Instance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Server/Main Instance.md"
+              }
             }
           }
         ]
@@ -130,15 +138,15 @@
   },
   "active": "2c3ec9bbf388e2da",
   "lastOpenFiles": [
+    "Server/Self-Hosted.md",
+    "Server/Oracle-Cloud.md",
+    "Server/Main Instance.md",
+    "Server/Backup Instance (Deprecated).md",
+    "Linux/Linux.md",
+    "Server/Oracle-Cloud/VPN Instance.md",
     "Docker/Docker.md",
     "README.md",
     "Docker/Containers/JDownloader.md",
-    "Docker/Containers/LittleLink.md",
-    "Docker/Containers/Uptime-Kuma.md",
-    "Docker/Containers/Traefik Proxy.md",
-    "Docker/Containers/Traefik.md",
-    "Docker/Containers/Speedtest-Tracker.md",
-    "Docker/Containers/Scrutiny.md",
-    "Docker/Containers/Vaultwarden.md"
+    "Docker/Containers/LittleLink.md"
   ]
 }

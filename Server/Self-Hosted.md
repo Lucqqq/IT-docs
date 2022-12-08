@@ -34,43 +34,37 @@ This is how I setup a SFTP-server on this Instance. A detailed tutorial can be f
 
 Create SFTP users group:
 
-```
+```sh
 sudo addgroup sftp
 ```
 
 Create a new SFTP user:
 
-```
+```sh
 sudo useradd -m sftp_user -g sftp
 ```
 
 Set the password for the new user:
 
-```
+```sh
 sudo passwd sftp_user
 ```
 
 Set the correct permissions for the user:
 
-```
+```sh
 sudo chmod 700 /home/sftp_user/
 ```
 
 Edit the current ssh configuration:
 
-```
+```sh
 sudo nano /etc/ssh/sshd_config
-```
-
-Now you need to connect to the server as the sftp_user:
-
-```
-ssh sftp_user@{server.ip} -p {port}
 ```
 
 Add this at the bottom of the file:
 
-```
+```sh
 ...
 
 Match group sftp
@@ -85,25 +79,25 @@ This will force users of the group sftp to use the SFTP-service.
 
 Restart ssh:
 
-```
+```sh
 sudo systemctl restart ssh
 ```
 
 Now you should be able to login to the server using your password:
 
-```
+```sh
 sftp sftp_user@{server.ip} -p {port}
 ```
 
 To mount the sftp conection to a certain folder use this command:
 
-```
+```sh
 sshfs -p {Port} {User}@{server.ip}:/ /path/to/mount/to
 ```
 
 To revert this simply type:
 
-```
+```sh
 sudo umount /path/to/mount/to
 ```
 
@@ -116,7 +110,7 @@ To solve this the Server is connecetd to the VPN setup on the [[VPN Instance]].
 There simply was added a new client to the VPN. But the resulting config file needed one addition.
 In the top part of the file the following line was added:
 
-```
+```sh
 pull-filter ignore redirect-gateway
 ```
 
@@ -168,7 +162,7 @@ COMMIT
 
 After that ufw was restarted:
 
-```
+```sh
 sudo systemctl restart ufw 
 ```
 
@@ -176,7 +170,7 @@ Now ufw and [[Docker]] are working togehter.
 
 ### To open a port just use:
 
-```
+```sh
 ufw route allow proto tcp from any to any port 80
 ```
 
