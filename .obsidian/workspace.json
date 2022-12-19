@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Server/Main Instance.md",
+                "file": "Server/Backup Instance (Deprecated).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Server/Main Instance.md",
+                "file": "Server/Backup Instance (Deprecated).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Server/Main Instance.md",
+                "file": "Server/Backup Instance (Deprecated).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Server/Main Instance.md"
+                "file": "Server/Backup Instance (Deprecated).md"
               }
             }
           }
@@ -138,11 +138,11 @@
   },
   "active": "2c3ec9bbf388e2da",
   "lastOpenFiles": [
-    "Server/Self-Hosted.md",
-    "Server/Oracle-Cloud.md",
     "Server/Main Instance.md",
-    "Server/Backup Instance (Deprecated).md",
+    "Server/Oracle-Cloud.md",
+    "Server/Self-Hosted.md",
     "Linux/Linux.md",
+    "Server/Backup Instance (Deprecated).md",
     "Server/Oracle-Cloud/VPN Instance.md",
     "Docker/Docker.md",
     "README.md",

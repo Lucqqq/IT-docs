@@ -7,7 +7,7 @@ Futher it is running Ubuntu 20.04 ([[Linux]]).
 
 Mount Webdav:
 ```sh
-sudo sudo mount -t davfs -o noexec https://nextcloud.lucq.de/remote.php/dav/files/lucq/ /mnt/dav/
+sudo mount -t davfs -o noexec https://nextcloud.lucq.de/remote.php/dav/files/lucq/ /mnt/dav/
 ```
 
 Start the sync:
