@@ -1,6 +1,6 @@
 # Grafana
 
-Grafana is a web-base tool displaying metrics and log in nice graphs. It just needs to get a connection to a database. It is important to note that it is only for displaying the data not for storing anthing. For this reason grafana relies on [[Prometheus]] to store the data.
+Grafana is a web-base tool displaying metrics and log in nice graphs. It just needs to get a connection to a database. It is important to note that it is only for displaying the data, not for storing anything. For this reason, Grafana relies on [[Prometheus]] to store the data.
 Grafana itself runs in a [[Docker]]-Container and is served via [[Traefik]].
 
 The complete [[Docker-Compose]] with [[Grafana]], [[Prometheus]] and [[Node-Exporter]] looks like this: 

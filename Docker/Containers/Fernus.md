@@ -1,4 +1,4 @@
-Fernus is a web-service which lets you create multiple dashboards to view all your services. It also has the abillity to connect to the api of certain other services e.g. nextcloud, plex.
+Fernus is a web-service which lets you create multiple dashboards to view all your services. It also has the ability to connect to the API of certain other services e.g. Nextcloud, Plex.
 Fernus is running within a [[Docker]]-Container and setup with the following [[Docker-Compose]] file:
 ```yml
 version: "3"

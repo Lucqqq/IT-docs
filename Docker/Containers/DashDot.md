@@ -1,11 +1,11 @@
 # DashDot
 
-DashDot is a simple dashboard showing the gerneral metrics of your machine.
+Dash Dot is a simple dashboard showing the general metrics of your machine.
 These metrics include information about:
 - CPU
 - Memory
 - Storage
-- Networkspeed 
+- Network speed 
 
 DashDot is running within a [[Docker]]-Container and setup with the following [[Docker-Compose]] file:
 ```yml

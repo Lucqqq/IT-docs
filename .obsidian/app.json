@@ -1,3 +1,27 @@
 {
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheckDictionary": [
+    "Authelia",
+    "Authelia",
+    "DashDot",
+    "Dupliacti",
+    "Endlessh is",
+    "Fernus",
+    "Filebrowser",
+    "proxied",
+    "JDownloader",
+    "environment-varibales",
+    "LittleLink",
+    "linktr",
+    "ee",
+    "smartd",
+    "roxied ",
+    "Vikunja",
+    "conf",
+    "Filesystem",
+    "TrueNAS",
+    "Portainer",
+    "proxmox",
+    "IOMMU"
+  ]
 }

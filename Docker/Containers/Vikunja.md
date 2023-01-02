@@ -44,7 +44,7 @@ services:
     restart: unless-stopped
 ```
 
-In addition to this [[Docker-Compose]] file you will also need to create and edit the "nginx.conf" file that is mounted to the container.
+In addition to this [[Docker-Compose]] file, you will also need to create and edit the "nginx.conf" file that is mounted to the container.
 The file needs to contain the following:
 ```conf
 server {

@@ -1,6 +1,6 @@
 # Node-Exporter
 
-Node-Exporter is a [[Docker]]-Container which reads all systemmetrics and serves them to [[Prometheus]].
+Node-Exporter is a [[Docker]]-Container which reads all system metrics and serves them to [[Prometheus]].
 
 The complete [[Docker-Compose]] with [[Grafana]], [[Prometheus]] and [[Node-Exporter]] looks like this: 
 ```yml

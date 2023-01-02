@@ -1,6 +1,6 @@
 # Filebrowser
 
-Filebrowser is a web-service which allowes you to manage files with an explorer like interface. It also allows for easy downloading of the files.
+Filebrowser is a web-service which allows you to manage files with an explorer like interface. It also allows for easy downloading of the files.
 Filebrowser is running within a [[Docker]]-Container and setup with the following [[Docker-Compose]] file:
 ```yml
 version: "3"

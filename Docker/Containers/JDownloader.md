@@ -1,7 +1,7 @@
 # JDownloader
 
-JDownloader is a headless [[Docker]]-Container. This means that the container itself does not offer any UI. Instead it relys on [my.jdownloader.org](https://my.jdownloader.org) to serve the UI. The environment-varibales define the account over which you can access the UI.
-The purpose of this container is many to scrape an download video files from websites. It is setup on [[Arm Instance]] and saves the file via SFTP on [[Self-Hosted]]-Instance. 
+JDownloader is a headless [[Docker]]-Container. This means that the container itself does not offer any UI. Instead, it relies on [my.jdownloader.org](https://my.jdownloader.org) to serve the UI. The environment-varibales define the account over which you can access the UI.
+The purpose of this container is many, to scrape and download video files from websites. It is set up on [[Arm Instance]] and saves the file via SFTP on [[Self-Hosted]]-Instance. 
 
 The setup in the [[Docker-Compose]] file looks like this:
 ```yml

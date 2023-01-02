@@ -1,5 +1,5 @@
 # Heimdall 
-Heimdall is a webpage displaying all your services and porviding access to all those webinterfaces of your services.
+Heimdall is a webpage displaying all your services and providing access to all those web interfaces of your services.
 It is not currently run since it got replaced with [[Homer (Deprecated)]].
 It is run via [[Docker]]:
 ```yml

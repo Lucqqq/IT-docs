@@ -1,7 +1,7 @@
 # Linux
-An operating system widel used in the server space. My server run ubuntu a special distro of linux. These systems can be accessed via ssh. ssh uses port 22 although this can be changed.
+An operating system widely used in the server space. My server run Ubuntu, a special distro of Linux. These systems can be accessed via ssh. SSH uses port 22, although this can be changed.
 
-## important commands
+## Important commands
 
 ### auto updates
 
@@ -47,7 +47,7 @@ ss -tupln
 ```
 
 
-### filesystem
+### Filesystem
 
 Change directory
 ```bash
@@ -89,7 +89,7 @@ Create a shortcut (mount folder to different folder)
 mount -o bind /path/to/origin /path/to/new/shortcut
 ```
 
-### permissions
+### Permissions
 
 Give a user access to a file:
 ```bash

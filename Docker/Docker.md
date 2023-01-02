@@ -1,9 +1,9 @@
 # Docker
 
-A way to containerise different services. Is mainly used on [[Linux]].
+A way to containerize different services. It is mainly used on [[Linux]].
 
 
-## Curently deployed containers:
+## Currently, deployed containers:
 - [[Authelia]]
 - [[Endlessh]]
 - [[Filebrowser]]

@@ -1,6 +1,6 @@
 # Web-Terminal
 
-This is a [[Docker]]-Container enabeling web-access to a terminal-session. Note that this is a terminal-session within the container and not on the host os.
+This is a [[Docker]]-Container enabling web-access to a terminal-session. Note that this is a terminal-session within the container and not on the host OS.
 
 [[Docker-Compose]]file:
 ```yml

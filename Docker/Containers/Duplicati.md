@@ -2,7 +2,7 @@
 
 Dupliacti is a [[Docker]]-Container that backups configured directories. It allows for managing multiple version, encryption and automation. 
 
-Duplicati is setup using the following [[Docker-Compose]]-file:
+Duplicati is set up using the following [[Docker-Compose]]-file:
 ```yml
 version: "2.1"
 services:

@@ -1,7 +1,7 @@
 # Authelia
 
-Authelia is a middleware use by [[Traefik]]. Its purpose is to act as an additional auth layer. This means every access to a service via [[Traefik]] is first routed to authelia where the user needs to authenticate. Authelia support 2FA and is configured to block any traefik to unknown subdomains. This adds additional security for your web-services.
-Authelia is setup in three different files:
+Authelia is a middleware use by [[Traefik]]. Its purpose is to act as an additional auth layer. This means every access to a service via [[Traefik]] is first routed to Authelia where the user needs to authenticate. Authelia support 2FA and is configured to block any traffic to unknown subdomains. This adds additional security for your web-services.
+Authelia is set up in three different files:
 
 First the [[Docker-Compose]].yml:
 ```yml
@@ -131,7 +131,7 @@ users:
 
 ## Setup
 
-First you need to create a folders and files like this:
+First, you need to create a folders and files like this:
 ```sh
 mkdir authelia #create a authelia folder
 
@@ -148,7 +148,7 @@ touch configuration.yml #create a configuration file
 touch users_database.yml #create a user-database
 ```
 
-After that is done you need to configure the configuration file. An example can be found above.
+After that is done, you need to configure the configuration file. An example can be found above.
 **Be sure to edit all the secret!!**
 ```sh
 nano configuration.yml
@@ -158,21 +158,21 @@ Now you need to edit the user-database as seen above.
 ```sh
 nano users_database.yml
 ```
-Since you can't just save your password directly in the file you need to generate a hash of the password.
+Since you can't just save your password directly in the file, you need to generate a hash of the password.
 This can easily be done by running:
 ```sh 
 docker run authelia/authelia:latest authelia hash-password 'yourpassword'
 ```
-This docker-container will return th hash of the password.
+This docker-container will return the hash of the password.
 
-After the user-database and the configuration file a setup you need to configure the docker-compose file as seen above:
+After the user-database and the configuration file a setup, you need to configure the docker-compose file as seen above:
 ```sh
 cd ..
 nano docker-compose.yml
 ```
 Be sure to edit it for your needs.
 
-Now everything should be setup and you are abel to start the container:
+Now everything should be setup and you are able to start the container:
 ```sh
 sudo docker-compose up -d
 ```
