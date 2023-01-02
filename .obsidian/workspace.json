@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2c7b8ed0a1f3a263",
+        "id": "ccba985ec61c3267",
         "type": "tabs",
         "children": [
           {
-            "id": "f1ccee11d2add8e5",
+            "id": "add5ac9f36240f62",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Server/Self-Hosted.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Server/Self-Hosted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Server/Self-Hosted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Server/Self-Hosted.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -136,10 +128,20 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f1ccee11d2add8e5",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "add5ac9f36240f62",
   "lastOpenFiles": [
-    "Docker/Containers/Duplicati.md",
     "Server/Self-Hosted.md",
+    "Docker/Containers/Duplicati.md",
     "Docker/Containers/LittleLink.md",
     "Docker/Containers/JDownloader.md",
     "SFTP.md",
