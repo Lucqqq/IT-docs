@@ -1,5 +1,5 @@
 Scrutiny is a WebUI for smartd S.M.A.R.T monitoring.
-It is currently run on [[Backup Instance (Depricated)]] and proxied via [[Traefik]] on the [[Arm Instance]] (see [[Traefik]]).
+It is currently run on [[Backup Instance (Deprecated)]] and proxied via [[Traefik]] on the [[Arm Instance]] (see [[Traefik]]).
 It is run via [[Docker]]:
 ```yml
 version: '3.5'

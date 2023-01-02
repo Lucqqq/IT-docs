@@ -25,4 +25,4 @@ All Request head to this instance. Traefik then routes them through the VPN and 
 
 ## Secondary purpose:
 The secondary purpose of the instance is to server as a downloader for TV-Series and movies. This is neccesary due to legal restictions in my homecountry.
-The Downloader is setup using [[JDownloader]]. To automatically save everything on [[Self-Hosted]], this instance is connected to [[Self-Hosted]] via [[SFTP]] and the SFTPlocation is set as the default downloadpath.
+The Downloader is setup using [[JDownloader]]. To automatically save everything on [[Self-Hosted]], this instance is connected to [[Self-Hosted]] via SFTP and the SFTP-location is set as the default downloadpath.

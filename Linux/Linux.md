@@ -21,7 +21,7 @@ usermod -aG sudo {user}
 
 ### secure logins
 
-```
+```sh
 nano /etc/ssh/sshd_config
 ```
 
@@ -42,7 +42,7 @@ scp $env:USERPROFILE/.ssh/id_rsa.pub {user}@{server_ip}:~/.ssh/authorized_keys
 ### networking
 
 show used ports
-```
+```sh
 ss -tupln
 ```
 

@@ -8,8 +8,8 @@ A way to containerise different services. Is mainly used on [[Linux]].
 - [[Endlessh]]
 - [[Filebrowser]]
 - [[Grafana]]
-- [[Heimdall]]
-- [[Homer]]
+- [[Heimdall (Deprecated)]]
+- [[Homer (Deprecated)]]
 - [[JDownloader]]
 - [[LittleLink]]
 - [[Nextcloud]]
@@ -23,8 +23,8 @@ A way to containerise different services. Is mainly used on [[Linux]].
 - [[Traefik]]
 - [[Uptime-Kuma]]
 - [[Vaultwarden]]
-- [[VS-CodeServer]]
-- [[Wallabag]]
+- [[VS-CodeServer (Deprecated)]]
+- [[Wallabag (Deprecated)]]
 - [[Web-Terminal]]
 
 

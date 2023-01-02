@@ -11,7 +11,7 @@ Oracle-Cloud has a special for of network protecting your Servers. To open a Por
 
 ![Add-Ingress-Rule](_assets/IngressRule.png)
 
-### Depricated:
+### Deprecated:
 Now the Server is accessible from the public internet. The firewall of the server on the other hand is still blocking all trafik. To fix this you need to follow these steps:
 
 First you need to install and enable firewalld to easily edit your iptables:

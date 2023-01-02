@@ -15,13 +15,13 @@ These are the things that need to be run upon startup of the server:
 
 Connecting to the filesystem of [[Main Instance]]:
 
-```
+```sh
 sshfs -o allow_other -p {Port} {User}@{IP}:/ /mnt/sshftp -o IdentityFile=/home/lucq/.ssh/id_rsa
 ```
 
 Starting the synchronisation of the backup:
 
-```
+```sh
 screen -rd
 
 sudo rsync -avu --delete "/mnt/sshftp/sftp/plex/" "/mnt/md0/backup/plex"
@@ -88,7 +88,7 @@ COMMIT
 
 After that ufw was restarted:
 
-```
+```sh
 sudo systemctl restart ufw 
 ```
 
@@ -96,7 +96,7 @@ Now ufw and [[Docker]] are working togehter.
 
 ### To open a port just use:
 
-```
+```sh
 ufw route allow proto tcp from any to any port 80
 ```
 
@@ -104,7 +104,7 @@ Note that the port you open has to be the internal port of the [[Docker]]\-Conta
 
 **Warning:** this opens port 80 to any [[Docker]]\-Container. To open only the port of a specific container please use:
 
-```
+```sh
 ufw route allow proto tcp from any to 172.17.0.2 port 80
 ```
 
@@ -122,13 +122,13 @@ This is the array where the backups get saved. It consists of three HDD each wit
 Raid Setup:
 Finding the names of the drives to use:
 
-```
+```sh
 lsblk -o NAME,SIZE,FSTYPE,TYPE,MOUNTPOINT
 ```
 
 Output:
 
-```
+```sh
 OutputNAME     SIZE FSTYPE   TYPE MOUNTPOINT
 sda      100G          disk 
 sdb      100G          disk 
@@ -137,37 +137,37 @@ sdc      100G          disk
 
 Creating the array:
 
-```
+```sh
 sudo mdadm --create --verbose /dev/{array_name} --level=5 --raid-devices=3 /dev/{disk1_name} /dev/{disk2name} /dev/{disk3_name}
 ```
 
 Formating the array:
 
-```
+```sh
 sudo mkfs.ext4 -F /dev/{array_name}
 ```
 
 Creating a mountpoint:
 
-```
+```sh
 sudo mkdir -p /place/to/mount/to/
 ```
 
 Mounting the array:
 
-```
+```sh
 sudo mount /dev/{array_name} /place/to/mount/to/
 ```
 
 Check if the array is available:
 
-```
+```sh
 df -h -x devtmpfs -x tmpfs
 ```
 
 Automatically mounting the array:
 
-```
+```sh
 sudo mdadm --detail --scan | sudo tee -a /etc/mdadm/mdadm.conf
 
 sudo update-initramfs -u
@@ -182,7 +182,7 @@ In the case of this server the three drives create an array with 931GB of storag
 To backup files of a different system it is necessary to connect to the system via [[SFTP]].
 To connect to the system via [[SFTP]] and mount it somewhere in your local filesystem simply use:
 
-```
+```sh
 sshfs -o allow_other -p {Port} {User}@{IP}:/ /path/to/mount/to -o IdentityFile=/path/to/ssh_key
 ```
 
@@ -190,13 +190,13 @@ sshfs -o allow_other -p {Port} {User}@{IP}:/ /path/to/mount/to -o IdentityFile=/
 
 First create a new screen to run our backup in. This allows to later check on the progress or pause the backup etc.
 
-```
+```sh
 screen
 ```
 
 Start of the backup within this new screen:
 
-```
+```sh
 sudo rsync -avu --delete "/path/to/source/" "/path/to/backup"
 ```
 
@@ -204,7 +204,7 @@ This will automatically sync the backup folder to be the same as the source fold
 To exit the screen press "ctrl" + "A" + "D".
 To later check on the synchronisation progess or to pause synchronisation:
 
-```
+```sh
 screen -rd
 ```
 

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ccba985ec61c3267",
+        "id": "12f76777ad6edf0c",
         "type": "tabs",
         "children": [
           {
-            "id": "add5ac9f36240f62",
+            "id": "2c3ec9bbf388e2da",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Server/Backup Instance (Deprecated).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Server/Backup Instance (Deprecated).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Server/Backup Instance (Deprecated).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Server/Backup Instance (Deprecated).md"
+              }
             }
           }
         ]
@@ -128,27 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "left-ribbon": {
-    "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
-    }
-  },
-  "active": "add5ac9f36240f62",
+  "active": "2c3ec9bbf388e2da",
   "lastOpenFiles": [
+    "Server/Main Instance.md",
+    "Server/Oracle-Cloud.md",
     "Server/Self-Hosted.md",
-    "Docker/Containers/Duplicati.md",
-    "Docker/Containers/LittleLink.md",
+    "Linux/Linux.md",
+    "Server/Backup Instance (Deprecated).md",
+    "Server/Oracle-Cloud/VPN Instance.md",
+    "Docker/Docker.md",
+    "README.md",
     "Docker/Containers/JDownloader.md",
-    "SFTP.md",
-    "Docker/Containers/Homer.md",
-    "Docker/Containers/Heimdall.md",
-    "Docker/Containers/Grafana.md",
-    "Docker/Containers/Filebrowser.md",
-    "Docker/Containers/Endlessh.md"
+    "Docker/Containers/LittleLink.md"
   ]
 }

@@ -1,3 +1,6 @@
+# LittleLink
+
+LittleLink is a selfhosted version of [linktr.ee](https://linktr.ee). It is run within a [[Docker]]-Container and is setup using the following [[Docker-Compose]]-file:
 ```yml
 version: "3.0"
 services:
