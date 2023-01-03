@@ -22,6 +22,12 @@
     "TrueNAS",
     "Portainer",
     "proxmox",
-    "IOMMU"
+    "IOMMU",
+    "Traefk",
+    "Traefik",
+    "Duplicati",
+    "AdGuardHome",
+    "Fenrus",
+    "prometheus"
   ]
 }
