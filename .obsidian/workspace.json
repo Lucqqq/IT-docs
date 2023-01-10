@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ccba985ec61c3267",
+        "id": "a15fefadc396b385",
         "type": "tabs",
         "children": [
           {
-            "id": "add5ac9f36240f62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "New Server.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e475b2690de170ef",
+            "id": "3c3d07669e6d37a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "New Server.md",
+                "file": "Linux/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "New Server.md",
+                "file": "Linux/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "New Server.md"
+                "file": "Linux/Linux.md"
               }
             }
           }
@@ -158,17 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "add5ac9f36240f62",
+  "active": "3c3d07669e6d37a1",
   "lastOpenFiles": [
-    "Linux/Linux.md",
     "New Server.md",
-    "Duplicati temp.md",
-    "Docker/Containers/Portainer.md",
-    "Server/Oracle-Cloud/Arm Instance.md",
+    "Server/Backup Instance (Deprecated).md",
     "Server/Oracle-Cloud/VPN Instance.md",
-    "Docker/Docker-Compose.md",
-    "Docker/Docker.md",
-    "Docker/Containers/Web-Terminal.md",
-    "Docker/Containers/Wallabag (Deprecated).md"
+    "Server/Oracle-Cloud/Arm Instance.md",
+    "Docker/Containers/Traefik Proxy.md",
+    "Linux/Linux.md",
+    "Duplicati temp.md",
+    "Server/Self-Hosted.md",
+    "Server/Oracle-Cloud.md",
+    "Server/Main Instance.md"
   ]
 }

@@ -1,12 +1,3 @@
-## VMs
-1. named after Japanese letters
-
-## TrueNAS
-1. TrueNas scale (based on Debian)
-2. 1 Volume with ZFS mirror
-3. /media for Plex
-4. /docker for Docker configs
-
 # Things to Do
 1. Build Server except of drives (include GPU)
 2. Copy Plex folder to 2 TB drive (via SFTP)
@@ -25,7 +16,7 @@
 	4. Login to Web interface
 	5. Create as Pool (ZFS mirror)
 	6. Add Dataset to Pool
-	7. Add new user to TrueNAS
+	7. Add new user to TrueNAS @ALK9#4mANcPcc*j
 	8. Setup SMB share
 	9. Setup Snapshots
 	10. Setup Sync Tasks
@@ -57,7 +48,7 @@
 	3. Set up [[Linux]]
 	4. Install Docker
 	5. Install OpenVPN
-	6. add client file to VPN
+	6. add client file to VPN QPb6Pss%K8fXtcMX
 	7. start VPN
 	8. check connection
 	9. setup forward proxy (Traefik same as [[VPN Instance]])
