@@ -12,7 +12,7 @@ services:
     networks:
       - proxy
     ports:
-	  - 32400:32400
+      - 32400:32400
       - 80:80
       - 443:443
     environment:
