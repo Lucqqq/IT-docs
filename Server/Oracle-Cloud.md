@@ -7,9 +7,7 @@ Oracle-Cloud is a cloud provider. All instances I use run [[Linux]]. Curently I 
 
 ## Networking
 
-Oracle-Cloud has a special for of network protecting your Servers. To open a Port on a Server you first have to login into [Oracle-Cloud](https://www.oracle.com/cloud/sign-in.html) (Firefox or Chrome), then you have to select the virtual network the instance is in. From there you have to open the default security list for said network. Here you will nee to add an "ingress rule" looking something like this:
-
-![Add-Ingress-Rule](_assets/IngressRule.png)
+Oracle-Cloud has a special for of network protecting your Servers. To open a Port on a Server you first have to login into [Oracle-Cloud](https://www.oracle.com/cloud/sign-in.html) (Firefox or Chrome), then you have to select the virtual network the instance is in. From there you have to open the default security list for said network. Here you will nee to add an "ingress rule".
 
 ### Deprecated:
 Now the Server is accessible from the public internet. The firewall of the server on the other hand is still blocking all trafik. To fix this you need to follow these steps:
