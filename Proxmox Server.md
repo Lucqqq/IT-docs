@@ -17,7 +17,7 @@ It has the following Hardware:
 * CPU: 2 vCores
 * Memory: 8 GB
 * Storage: 
-  * SSD: 16 GB virtuall disk
+  * SSD1: 16 GB virtuall disk
   * HDD1: 4 TB Western Digital Red - Raid 1
   * HDD2: 4 TB Western Digital Red - Raid 1
 * Networking: 
@@ -29,19 +29,28 @@ It has the following Hardware:
 * CPU: 10 vCores
 * Memory: 14 GB
 * Storage: 
-  * SSD: 128 GB virtuall disk
+  * SSD2: 128 GB virtuall disk
   * SMB share of VM100
 * Networking: 
   * bridge-network: 192.168.0.91
 
-### VM102: Ubuntu-VPN
+### VM103: Ubuntu-Games
+This machine is a VM dedicated to hosting gameservers (Minecraft, Factorio, CSGO, etc.). It has the following Hardware:
+* CPU: 4 vCores
+* Memory: 6 GB
+* Storage: 
+  * SSD2: 128 GB virtuall disk
+* Networking: 
+  * bridge-network: 192.168.0.93
+  * 
+### VM104: Ubuntu-VPN
 This machine is the gateway of all internet-traffic into the local network. It has a VPN connetcion to the Arm-instance and proxies traffic between Arm-instance and VM101.
 Futhermore it passes the SMB share of VM100 to the Arm-instance.
 It has the following Hardware:
 * CPU: 2 vCores
 * Memory: 3 GB
 * Storage: 
-  * HDD3: 16 GB virtuall disk
+  * SSD1: 16 GB virtuall disk
   * SMB share of VM100
 * Networking: 
   * bridge-network: 192.168.0.92
