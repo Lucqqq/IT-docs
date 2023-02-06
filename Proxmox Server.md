@@ -42,7 +42,7 @@ This machine is a VM dedicated to hosting gameservers (Minecraft, Factorio, CSGO
   * SSD2: 128 GB virtuall disk
 * Networking: 
   * bridge-network: 192.168.0.93
-  * 
+
 ### VM104: Ubuntu-VPN
 This machine is the gateway of all internet-traffic into the local network. It has a VPN connetcion to the Arm-instance and proxies traffic between Arm-instance and VM101.
 Futhermore it passes the SMB share of VM100 to the Arm-instance.
