@@ -84,7 +84,7 @@ acme.json File:
         },
         "uri": "https://acme-v02.api.letsencrypt.org/acme/acct/{your_id}"
       },
-      "PrivateKey": "{secret}      "KeyType": "4096"
+      "PrivateKey": "{secret}"      "KeyType": "4096"
     },
     "Certificates": null
   }
