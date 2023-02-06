@@ -23,26 +23,26 @@ It has the following Hardware:
 * Networking: 
   * bridge-network: 192.168.0.90
 
-VM102: Ubuntu-Docker
-	This machine is the main computing VM. It runs all services, but requieres the services of the other VMs (storage and external access)
-	It has the following Hardware:
-		CPU: 10 vCores
-		Memory: 14 GB
-		Storage: 
-			SSD: 128 GB virtuall disk
-			SMB share of VM100
-		Networking: 
-			bridge-network: 192.168.0.91
+### VM102: Ubuntu-Docker
+This machine is the main computing VM. It runs all services, but requieres the services of the other VMs (storage and external access)
+It has the following Hardware:
+* CPU: 10 vCores
+* Memory: 14 GB
+* Storage: 
+  * SSD: 128 GB virtuall disk
+  * SMB share of VM100
+* Networking: 
+  * bridge-network: 192.168.0.91
 
-VM102: Ubuntu-VPN
-	This machine is the gateway of all internet-traffic into the local network. It has a VPN connetcion to the Arm-instance and proxies traffic between Arm-instance and VM101.
-	Futhermore it passes the SMB share of VM100 to the Arm-instance.
-	It has the following Hardware:
-		CPU: 2 vCores
-		Memory: 3 GB
-		Storage: 
-			HDD3: 16 GB virtuall disk
-			SMB share of VM100
-		Networking: 
-			bridge-network: 192.168.0.92
-			VPN-network: 10.8.0.2
+### VM102: Ubuntu-VPN
+This machine is the gateway of all internet-traffic into the local network. It has a VPN connetcion to the Arm-instance and proxies traffic between Arm-instance and VM101.
+Futhermore it passes the SMB share of VM100 to the Arm-instance.
+It has the following Hardware:
+* CPU: 2 vCores
+* Memory: 3 GB
+* Storage: 
+  * HDD3: 16 GB virtuall disk
+  * SMB share of VM100
+* Networking: 
+  * bridge-network: 192.168.0.92
+  * VPN-network: 10.8.0.2
