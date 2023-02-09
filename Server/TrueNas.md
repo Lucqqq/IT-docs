@@ -43,5 +43,5 @@ This storage box is located at Hetzner and has a total of 5 TB of storage.
 Of these 5 TB the storage box makes a snapshot once a month.
 With a total of 6 snapshots this allows for a retention of up to 6 month back.
 
-A nice visualisation of the backups structure can be found in the "Backup structure.pdf"
+A nice visualisation of the backups structure can be found in the "Backup Strategy.pdf"
 
