@@ -1,9 +1,13 @@
 # Authelia
 
-Authelia is a middleware use by [[Traefik]]. Its purpose is to act as an additional auth layer. This means every access to a service via [[Traefik]] is first routed to Authelia where the user needs to authenticate. Authelia support 2FA and is configured to block any traffic to unknown subdomains. This adds additional security for your web-services.
+Authelia is a middleware use by Traefik. Its purpose is to act as an additional auth layer. This means every access to a service via Traefik is first routed to Authelia where the user needs to authenticate. Authelia support 2FA and is configured to block any traffic to unknown subdomains. This adds additional security for your web-services.
+
+![image](https://user-images.githubusercontent.com/108678440/217818225-40b13b18-155e-4d86-83af-7ad39080796f.png)
+
+
 Authelia is set up in three different files:
 
-First the [[Docker-Compose]].yml:
+First the Docker-Compose.yml:
 ```yml
 version: '3'
 
