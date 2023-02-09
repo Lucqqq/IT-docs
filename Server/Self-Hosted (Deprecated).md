@@ -4,7 +4,7 @@ This Server is replacing [[Backup Instance (Deprecated)]].
 
 The Setup I would chose:
 
-| Part | Choise |
+| Part | Choice |
 |------|--------|
 | CPU | Old I5 2320 |
 | Mainboard | came with CPU |
